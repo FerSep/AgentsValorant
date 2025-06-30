@@ -1,0 +1,68 @@
+---
+
+interface spell {
+    name : string,
+    icon : string,
+    description : string  
+}
+
+
+
+const {agente} = Astro.props
+
+const {spells} = agente.spells as {spells : spell[]}
+
+const { } = Astro.props as { }
+---
+<section>
+    <nav>
+        <ul class="spell">
+            {spells.map((spell) =>{
+                return <li data-name={spell.name} data-description={spell.description}>
+                    <img src={spell.icon} alt={spell.name}/>
+                </li>
+            })}
+        </ul>
+    </nav>
+
+    
+
+    <div class="info">
+    
+    </div>
+
+</section>
+
+<script>
+    const spell = document.querySelectorAll('.spell li')
+    const div = document.querySelector('.info')
+
+    spell.forEach(element => {
+        element.addEventListener('click', (e) => {
+            if(!e.currentTarget) return
+            
+            const data = e.currentTarget as HTMLElement
+            
+            if (div) {
+                div.innerHTML = ''
+            }
+            
+            showInfo(data.dataset.name || '', data.dataset.description || '')
+
+            console.log(data.dataset.name)
+        })
+    })
+    
+
+    function showInfo(name : string, texto : string) {
+    
+        const h2 = document.createElement('h2')
+        h2.textContent = name
+
+        const p = document.createElement('p')
+        p.textContent = texto
+        
+        div?.appendChild(h2)
+        div?.appendChild(p)
+    }
+</script>

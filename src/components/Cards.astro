@@ -1,14 +1,18 @@
 ---
+interface props {
+  image : string;
+  name : string;
+}
 
 const {image , name} = Astro.props 
 
 
 ---
 
-<div class="card">
+<article class="card">
     <img src={image} alt={name}  class="image"/>
     <h2>{name}</h2>
-</div>
+</article>
 
 <style>
 .image{

@@ -1,0 +1,739 @@
+[
+    {
+        "name" : "astra",
+        "icon" : "/iconos_agentes/Astra_icon_1_11zon.webp",
+        "splash" : "/agentes/astra/Astra_Artwork_Full.webp",
+        "description" :"Astra es un personaje que requiere habilidades de posicionamiento y coordinación en equipo. Su capacidad para alterar el espacio y proporcionar cobertura o crear caos en las líneas enemigas puede cambiar el curso de una ronda, aunque su efectividad depende mucho de la capacidad de anticipación y la estrategia.",
+        "rol" : {
+            "name" : "controller",
+            "icon" : "/Icons/ControllerClassSymbol.webp"
+        },
+        "spells" :
+            [
+                {
+                    "name" : "nebula",
+                    "icon" : "/agentes/astra/Nebula_Dissipate.webp",
+                    "description" : "Astra usa estrellas cósmicas que puede transformar en nebulosas, creando grandes esferas que bloquean la visión. Se pueden colocar de forma estratégica en el mapa para negar líneas de visión al enemigo o dificultar su avance."
+                },
+                {
+                    "name" : "gravity well",
+                    "icon" : "/agentes/astra/Gravity_Well.webp",
+                    "description" : "Esta habilidad permite que Astra coloque una estrella en el mapa que, al activarse, crea un agujero de gravedad que atrae a los enemigos hacia el centro, lo que los ralentiza y los deja vulnerables. Es útil para desorientar y desorganizar al enemigo, obligándolos a moverse de forma incómoda."
+                },   
+                {
+                    "name" : "nova pulse",
+                    "icon" : "/agentes/astra/Nova_Pulse.webp",
+                    "description" : "Astra puede activar una estrella para crear una explosión de energía cósmica que aturde a los enemigos dentro de su radio de acción. Esto les impide moverse o actuar durante un tiempo, lo que puede ser decisivo para el control del mapa."
+                },
+                {
+                    "name" : "cosmic divide",
+                    "icon" : "/agentes/astra/Cosmic_Divide.webp",
+                    "description" : "Astra utiliza su energía cósmica para crear una barrera masiva que atraviesa el mapa, bloqueando la visión y haciendo que los disparos a través de ella sean menos efectivos. Esta habilidad es ideal para dividir áreas, crear oportunidades para avanzar o retirarse, o hacer que la entrada en puntos de control sea más difícil para los enemigos."
+                }
+        ]
+
+    },
+    {
+    "name": "breach",
+    "icon": "/iconos_agentes/Breach_icon_2_11zon.webp",
+    "splash": "/agentes/breach/Breach_Artwork_Full.webp",
+    "description": "Breach es un personaje que sobresale en abrir espacio para su equipo y desorientar a los enemigos. Su habilidad para atravesar paredes con sus habilidades y generar caos es crucial para facilitar el avance en los sitios. Sin embargo, requiere una buena coordinación con su equipo para aprovechar al máximo su potencial.",
+    "rol": {
+        "name": "Iniciador",
+        "icon": "/Icons/InitiatorClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Fault Line",
+        "icon": "/agentes/breach/Fault_Line.webp",
+        "description": "Breach canaliza una onda sísmica en línea recta que atraviesa paredes, aturdiendo a los enemigos en su trayectoria. La habilidad puede ser cargada para aumentar su alcance. Es útil para interrumpir defensas, desorganizar a los enemigos y facilitar la entrada a sitios."
+        },
+        {
+        "name": "Flashpoint",
+        "icon": "/agentes/breach/Flashpoint.webp",
+        "description": "Breach dispara una explosión cegadora a través de superficies, cegando a todos los enemigos en el área afectada. Esta habilidad es perfecta para entrar en sitios o forzar a los enemigos a retroceder. Su capacidad para atravesar paredes hace que sea impredecible y difícil de contrarrestar."
+        },
+        {
+        "name": "Aftershock",
+        "icon": "/agentes/breach/Aftershock.webp",
+        "description": "Breach dispara una carga explosiva que atraviesa paredes y explota en múltiples ondas, infligiendo un gran daño a los enemigos atrapados en su radio de acción. Es ideal para despejar ángulos estrechos o forzar a los enemigos a salir de posiciones defensivas."
+        },
+        {
+        "name": "Rolling Thunder",
+        "icon": "/agentes/breach/Rolling_Thunder.webp",
+        "description": "Breach despliega una explosión sísmica masiva en un área frontal que atraviesa el mapa en línea recta. Todos los enemigos atrapados en su área de efecto son aturdidos y derribados temporalmente, dejándolos vulnerables y fuera de combate. Es ideal para ejecutar un ataque coordinado o clearear un punto clave."
+        }
+    ]
+    },
+    {
+    "name": "brimstone",
+    "icon": "/iconos_agentes/Brimstone_icon_2_11zon.webp",
+    "splash": "/agentes/brimstone/Brimstone_Artwork_Full.webp",
+    "description": "Brimstone es un personaje confiable y versátil que sobresale en controlar el mapa y apoyar a su equipo. Sus habilidades le permiten asegurar áreas estratégicas y crear ventajas tácticas. Es ideal para jugadores que buscan un estilo de juego sólido y efectivo en equipo.",
+    "rol": {
+        "name": "Controlador",
+        "icon": "/Icons/ControllerClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Incendiary",
+        "icon": "/agentes/brimsotne/Incendiary.webp",
+        "description": "Brimstone lanza una granada incendiaria que explota al impactar, creando un área de fuego que inflige daño a los enemigos atrapados en ella. Es útil para despejar posiciones o bloquear zonas importantes."
+        },
+        {
+        "name": "Stim Beacon",
+        "icon": "/agentes/brimsotne/Stim_Beacon.webp",
+        "description": "Brimstone despliega un baliza en el suelo que otorga velocidad de disparo adicional y mejora el manejo de armas para él y sus aliados dentro del área de efecto. Ideal para ganar ventaja en enfrentamientos."
+        },
+        {
+        "name": "Sky Smoke",
+        "icon": "/agentes/brimsotne/Sky_Smoke.webp",
+        "description": "Brimstone llama a un satélite para desplegar cortinas de humo en ubicaciones específicas. Estas nubes bloquean la visión del enemigo y facilitan la toma de puntos o la defensa de áreas estratégicas."
+        },
+        {
+        "name": "Orbital Strike",
+        "icon": "/agentes/brimsotne/Orbital_Strike.webp",
+        "description": "Brimstone utiliza un marcador láser para ordenar un bombardeo orbital en un área específica. Esta habilidad inflige un daño masivo y obliga a los enemigos a abandonar posiciones clave. Perfecta para eliminar oponentes atrincherados."
+        }
+    ]
+    },
+    {
+    "name": "chamber",
+    "icon": "/iconos_agentes/Chamber_icon_2_11zon.webp",
+    "splash": "/agentes/chamber/Chamber_Artwork_Full.webp",
+    "description": "Chamber es un agente sofisticado y letal que combina precisión y estrategia con un conjunto de habilidades centrado en el control de áreas y el daño directo. Su arsenal especializado lo convierte en un gran duelista y ancla defensiva, ideal para quienes tienen buena puntería y les gusta jugar de manera calculada.",
+    "rol": {
+        "name": "Centinela",
+        "icon": "/Icons/ControllerClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Trademark",
+        "icon": "/agentes/chamber/Trademark.webp",
+        "description": "Chamber coloca una trampa que detecta enemigos que entren en su rango. Al activarse, ralentiza a todos los jugadores en el área afectada. Es ideal para bloquear flancos o ganar tiempo durante una defensa."
+        },
+        {
+        "name": "Headhunter",
+        "icon": "/agentes/chamber/Headhunter.webp",
+        "description": "Chamber equipa un revólver pesado con gran precisión y daño. Los disparos bien colocados son letales, y puede ser usado como una alternativa económica o para asegurar bajas en cualquier ronda."
+        },
+        {
+        "name": "Rendezvous",
+        "icon": "/agentes/chamber/Rendezvous.webp",
+        "description": "Chamber despliega dos anclajes de teletransportación en el mapa. Mientras esté dentro del rango de un anclaje, puede activarlo para moverse rápidamente al otro. Es perfecto para reposicionarse y escapar de situaciones peligrosas."
+        },
+        {
+        "name": "Tour De Force",
+        "icon": "/agentes/chamber/Tour_De_Force.webp",
+        "description": "Chamber invoca un rifle de francotirador personalizado que elimina a los enemigos de un solo disparo. Los enemigos abatidos crean un área que ralentiza a otros jugadores, brindando control adicional tras cada baja. Esta habilidad convierte a Chamber en una fuerza dominante en el campo."
+        }
+    ]
+    },
+    {
+    "name": "clove",
+    "icon": "/iconos_agentes/Clove_icon_2_11zon.webp",
+    "splash": "/agentes/clove/Clove_Artwork_Full.webp",
+    "description": "Clove es un agente escocés que domina las esencias de la vida y la inmortalidad. Su capacidad para regresar de la muerte y crear caos en el campo de batalla lo convierte en un controlador versátil y enigmático. Ideal para jugadores que buscan un estilo de juego táctico y disruptivo.",
+    "rol": {
+        "name": "Controlador",
+        "icon": "/Icons/ControllerClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Meddle",
+        "icon": "/agentes/clove/Meddle.webp",
+        "description": "Equipa un fragmento de esencia de inmortalidad. Dispara para lanzar el fragmento, que estalla tras un breve retardo y aplica decaimiento temporal a todos los objetivos atrapados en su interior. Útil para debilitar a los oponentes antes de un enfrentamiento."
+        },
+        {
+        "name": "Veil",
+        "icon": "/agentes/clove/Ruse.webp",
+        "description": "Equípate para visualizar el campo de batalla. Dispara para establecer las ubicaciones donde se desplegarán las nubes de Clove. Disparo alternativo para confirmar, lanzando nubes que bloquean la visión en las áreas seleccionadas. Clove puede usar esta habilidad incluso después de morir."
+        },
+        {
+        "name": "Pick Me Up",
+        "icon": "/agentes/clove/Pick-me-up.webp",
+        "description": "Absorbe al instante la fuerza vital de un enemigo caído al que Clove haya dañado o matado, ganando prisa y salud temporal. Esta habilidad permite a Clove mantenerse en la lucha por más tiempo y reposicionarse rápidamente."
+        },
+        {
+        "name": "Not Dead Yet",
+        "icon": "/agentes/clove/Not_Dead_Yet.webp",
+        "description": "Tras morir, actívala para resucitar. Una vez resucitado, Clove debe conseguir una muerte o una asistencia dañina en un tiempo determinado o morirá nuevamente. Esta habilidad ofrece una segunda oportunidad para impactar en la ronda, pero requiere acción inmediata para mantenerse con vida."
+        }
+    ]
+    },
+    {
+    "name": "cypher",
+    "icon": "/iconos_agentes/Cypher_icon_2_11zon.webp",
+    "splash": "/agentes/cypher/Cypher_Artwork_Full.webp",
+    "description": "Cypher es un maestro del espionaje y la información, capaz de controlar el campo de batalla con su red de dispositivos. Su habilidad para recopilar datos sobre la posición enemiga lo convierte en una herramienta invaluable para el equipo. Ideal para jugadores estratégicos y calculadores que disfrutan de anticiparse a los movimientos rivales.",
+    "rol": {
+        "name": "Centinela",
+        "icon": "/Icons/SentinelClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Trapwire",
+        "icon": "/agentes/cypher/Trapwire.webp",
+        "description": "Cypher coloca un cable trampa entre dos paredes. Los enemigos que lo atraviesan quedan revelados y aturdidos tras un breve retardo, a menos que destruyan el cable a tiempo. Útil para vigilar flancos o detener avances enemigos."
+        },
+        {
+        "name": "Cyber Cage",
+        "icon": "/agentes/cypher/Cyber_Cage.webp",
+        "description": "Cypher lanza una jaula cibernética que puede activarse manualmente, creando una barrera que bloquea la visión y ralentiza a los enemigos que la atraviesan. Perfecta para bloquear rutas o dificultar el movimiento del equipo enemigo."
+        },
+        {
+        "name": "Spycam",
+        "icon": "/agentes/cypher/Spycam.webp",
+        "description": "Cypher coloca una cámara remota en cualquier superficie. Puede usarla para observar áreas y disparar un dardo rastreador a los enemigos, revelando su ubicación. Una herramienta esencial para recopilar información sin exponerse al peligro."
+        },
+        {
+        "name": "Neural Theft",
+        "icon": "/agentes/cypher/Neural_Theft.webp",
+        "description": "Cypher usa el cadáver de un enemigo para revelar la ubicación de todos los miembros vivos de su equipo. Esta habilidad proporciona información crítica para planificar ataques o defender sitios."
+        }
+    ]
+    },
+    {
+    "name": "fade",
+    "icon": "/iconos_agentes/Fade_icon_2_11zon.webp",
+    "splash": "/agentes/fade/Fade_Artwork_Full.webp",
+    "description": "Fade es una agente turca especialista en el control de la información y el debilitamiento del enemigo. Sus habilidades le permiten rastrear y presionar al equipo contrario, creando un ambiente de constante amenaza. Ideal para jugadores que disfrutan desestabilizando al enemigo y proporcionando ventaja a su equipo.",
+    "rol": {
+        "name": "Iniciadora",
+        "icon": "/Icons/InitiatorClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Prowler",
+        "icon": "/agentes/fade/Prowler.webp",
+        "description": "Fade lanza una criatura que se desplaza en línea recta y rastrea a los enemigos en su camino. Al detectar a un enemigo, se acerca a ellos, los aturde y los deja vulnerables. Es excelente para despejar ángulos o forzar a los enemigos a moverse de su posición."
+        },
+        {
+        "name": "Seize",
+        "icon": "/agentes/fade/Seize.webp",
+        "description": "Fade lanza una esfera que, al detonar, emite una zona de control que ralentiza y limita la visión de los enemigos dentro de su área de efecto. Esta habilidad es ideal para controlar espacios clave o impedir el movimiento de los rivales durante un asedio."
+        },
+        {
+        "name": "Nightfall",
+        "icon": "/agentes/fade/Nightfall.webp",
+        "description": "Fade lanza una esfera de oscuridad que se extiende a través del mapa, detectando a los enemigos en su camino y aplicando un efecto de ceguera y ralentización a todos los enemigos atrapados dentro. Es una habilidad ideal para tomar el control de puntos críticos o interrumpir la defensa enemiga."
+        },
+        {
+        "name": "Hunter's Fury",
+        "icon": "/agentes/fade/Haunt.webp",
+        "description": "Fade activa una serie de lanzadores que disparan flechas en línea recta, atravesando el mapa y dañando a los enemigos en su camino. Las flechas también aplican un efecto que revela la ubicación de los enemigos golpeados, brindando a Fade y su equipo una ventaja significativa."
+        }
+    ]
+    },{
+    "name": "gekko",
+    "icon": "/iconos_agentes/Gekko_icon_2_11zon.webp",
+    "splash": "/agentes/gekko/Gekko_Artwork_Full.webp",
+    "description": "Gekko es un agente lleno de energía y creatividad, que se especializa en la interacción con dispositivos que se comportan casi como mascotas. Sus habilidades le permiten controlar el terreno de juego y generar caos en las filas enemigas con una mezcla de diversión y eficacia. Ideal para jugadores que disfrutan de un estilo de juego versátil y de impacto.",
+    "rol": {
+        "name": "Iniciador",
+        "icon": "/Icons/InitiatorClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Mosh Pit",
+        "icon": "/agentes/gekko/Mosh_Pit.webp",
+        "description": "Gekko lanza una esfera que, al activarse, crea una explosión de energía que inflige daño y desorienta a los enemigos cercanos. Es ideal para despejar áreas o forzar a los enemigos a salir de posiciones clave."
+        },
+        {
+        "name": "Wingman",
+        "icon": "/agentes/gekko/Wingman.webp",
+        "description": "Gekko despliega un dispositivo en forma de mascota voladora que, al ser activado, se mueve en línea recta y puede ser dirigido para explotar sobre los enemigos o tomar control de puntos específicos del mapa. Esta habilidad puede ser utilizada para abrir caminos o sorprender a los enemigos."
+        },
+        {
+        "name": "Dizzy",
+        "icon": "/agentes/gekko/Dizzy.webp",
+        "description": "Gekko lanza un dispositivo que, al explotar, emite una nube de gas que aturde y ralentiza a los enemigos atrapados dentro de ella. Ideal para reducir la efectividad del equipo enemigo antes de entrar en combate."
+        },
+        {
+        "name": "Gekko's Revenge",
+        "icon": "/agentes/gekko/Thrash.webp",
+        "description": "Gekko invoca una versión mejorada de Wingman que, al activarse, hace un ataque masivo sobre una zona designada, infligiendo gran daño y desorientando a los enemigos en un área más amplia. Es una habilidad perfecta para romper líneas defensivas o causar pánico en el equipo contrario."
+        }
+    ]
+    },
+    {
+    "name": "harbor",
+    "icon": "/iconos_agentes/Harbor_icon_2_11zon.webp",
+    "splash": "/agentes/harbor/Harbor_Artwork_Full.webp",
+    "description": "Harbor es un agente que controla el agua para crear barreras y proteger a su equipo. Su habilidad para manipular el entorno le permite tanto defender como atacar, ofreciendo un control estratégico del espacio. Ideal para jugadores que disfrutan de ser el ancla defensiva y crear oportunidades para su equipo.",
+    "rol": {
+        "name": "Controlador",
+        "icon": "/Icons/ControllerClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "High Tide",
+        "icon": "/agentes/harbor/High_Tide.webp",
+        "description": "Harbor lanza una gran pared de agua que se desplaza por el mapa. Esta pared bloquea la visión y ralentiza a los enemigos que la atraviesan. Es perfecta para dividir el campo de batalla, cubrir avances o desorientar al enemigo."
+        },
+        {
+        "name": "Cove",
+        "icon": "/agentes/harbor/Cove.webp",
+        "description": "Harbor lanza un dispositivo que crea una esfera de agua en el suelo. La esfera actúa como una protección temporal, bloqueando las balas y la visión, ideal para cubrir a su equipo durante un asalto o para proteger una zona clave."
+        },
+        {
+        "name": "Cascade",
+        "icon": "/agentes/harbor/Cascade.webp",
+        "description": "Harbor lanza una corriente de agua que se desplaza en línea recta, empujando a los enemigos hacia atrás y creando un área donde la visibilidad y el movimiento se ven comprometidos. Es útil para forzar a los enemigos a abandonar una posición o interrumpir su avance."
+        },
+        {
+        "name": "Deluge",
+        "icon": "/agentes/harbor/Reckoning.webp",
+        "description": "Harbor invoca una poderosa tormenta de agua que cubre un área grande del mapa, ralentizando a los enemigos dentro de ella y creando un campo donde la visión y la movilidad se ven severamente afectadas. Ideal para tomar control de un sitio o desorganizar completamente al enemigo."
+        }
+    ]
+    },
+    {
+    "name": "iso",
+    "icon": "/iconos_agentes/Iso_icon_2_11zon.webp",
+    "splash": "/agentes/iso/Iso_Artwork_Full.webp",
+    "description": "Iso es un agente con habilidades que le permiten manipular energía radiante para crear barreras de protección y desmantelar a sus enemigos. Su capacidad para controlar el entorno con sus habilidades lo convierte en un duelist eficaz y un gran aliado para el equipo.",
+    "rol": {
+        "name": "Duelista",
+        "icon": "/Icons/DuelistClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Contingency",
+        "icon": "/agentes/iso/Contingency.webp",
+        "description": "Iso reúne energía prismática y la proyecta como una pared indestructible que bloquea las balas durante 4.6 segundos. Ideal para cubrir los movimientos del equipo o interrumpir el avance enemigo."
+        },
+        {
+        "name": "Undercut",
+        "icon": "/agentes/iso/Undercut.webp",
+        "description": "Iso lanza un perno molecular que atraviesa objetos sólidos y aplica el estado 'Vulnerable' a los enemigos tocados. Esta habilidad es útil para debilitar al enemigo antes de un enfrentamiento o forzar su reubicación."
+        },
+        {
+        "name": "Double Tap",
+        "icon": "/agentes/iso/Double_Tap.webp",
+        "description": "Iso inicia un temporizador que, al completarse, le otorga un escudo que absorbe daño. Durante el estado de flujo, eliminar o dañar a enemigos caídos genera orbes de energía que recargan el escudo o proporcionan uno nuevo."
+        },
+        {
+        "name": "Kill Contract",
+        "icon": "/agentes/iso/Kill_Contract.webp",
+        "description": "Iso lanza una columna de energía que lo transporta a una arena interdimensional donde debe enfrentar a un enemigo en un duelo a muerte de 13 segundos. Esta habilidad permite a Iso concentrarse completamente en un objetivo y obtener una ventaja en combate."
+        }
+    ]
+    },
+    {
+    "name": "jett",
+    "icon": "/iconos_agentes/Jett_icon_2_11zon.webp",
+    "splash": "/agentes/jett/Jett_Artwork_Full.webp",
+    "description": "Jett es una agente ágil y rápida que se especializa en el control del aire. Sus habilidades le permiten moverse rápidamente por el mapa, evitando el daño y atacando a sus enemigos con gran precisión. Ideal para jugadores que disfrutan de la movilidad y la flexibilidad en su estilo de juego.",
+    "rol": {
+        "name": "Duelista",
+        "icon": "/Icons/DuelistClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Cloudburst",
+        "icon": "/agentes/jett/Cloudburst.webp",
+        "description": "Jett lanza una nube de niebla que bloquea la visión en un área. Esta habilidad es perfecta para cubrir los movimientos de su equipo o para desorientar al enemigo, permitiéndole tomar un ángulo ventajoso."
+        },
+        {
+        "name": "Updraft",
+        "icon": "/agentes/jett/Updraft.webp",
+        "description": "Jett consume una carga para impulsarse hacia arriba, permitiéndole alcanzar lugares elevados o escapar de situaciones peligrosas. Su movilidad aérea la convierte en una agente difícil de atrapar."
+        },
+        {
+        "name": "Tailwind",
+        "icon": "/agentes/jett/Tailwind.webp",
+        "description": "Jett obtiene un impulso de velocidad en la dirección en la que se mueve. Esta habilidad se activa después de una eliminación, permitiéndole a Jett reposicionarse rápidamente y mantener la presión sobre el enemigo."
+        },
+        {
+        "name": "Tempest",
+        "icon": "/agentes/jett/Blade_Storm.webp",
+        "description": "Jett invoca su poder completo, obteniendo la capacidad de disparar cuchillas de viento que infligen daño y pueden rebotar en múltiples objetivos. Mientras tiene esta habilidad activa, Jett también obtiene un aumento en su movilidad, lo que le permite esquivar y atacar con mayor efectividad."
+        }
+    ]
+    },
+    {
+    "name": "kayo",
+    "icon": "/iconos_agentes/KAYO_icon_2_11zon.webp",
+    "splash": "/agentes/kayo/KAYO_Artwork_Full.webp",
+    "description": "KAY/O es un agente con habilidades centradas en el control del campo de batalla y la interrupción de las habilidades enemigas. Su capacidad para neutralizar a otros agentes y su presencia en el campo lo convierten en una pieza clave para cualquier equipo. Ideal para jugadores que buscan apoyo táctico y un impacto directo en el control del juego.",
+    "rol": {
+        "name": "Iniciador",
+        "icon": "/Icons/InitiatorClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "FRAG/ment",
+        "icon": "/agentes/kayo/FRAG-ment.webp",
+        "description": "KAY/O lanza una granada de fragmentación que rebota en el suelo antes de explotar en varias pequeñas esferas que infligen daño en área. Esta habilidad es ideal para despejar posiciones enemigas o interrumpir a un grupo de enemigos reunidos."
+        },
+        {
+        "name": "FLASH/drive",
+        "icon": "/agentes/kayo/FLASH-drive.webp",
+        "description": "KAY/O lanza una granada cegadora que explota al contacto, cegando a los enemigos cercanos. Se puede activar manualmente o hacer que explote al tocar una superficie. Es útil para entrar a sitios o desorientar a los enemigos antes de un enfrentamiento."
+        },
+        {
+        "name": "NULL/cmd",
+        "icon": "/agentes/kayo/NULL-cmd.webp",
+        "description": "KAY/O lanza un dispositivo que crea un área de supresión que desactiva las habilidades enemigas dentro de su radio de acción. Esto es crucial para interrumpir a los agentes enemigos que dependen de sus habilidades para atacar o defender."
+        },
+        {
+        "name": "ANNIHILATION",
+        "icon": "/agentes/kayo/ZERO-point.webp",
+        "description": "KAY/O lanza una granada que explota al contacto, infligiendo daño en área. Además, inflige daño adicional y reduce la movilidad de los enemigos atrapados dentro de su radio. Es perfecta para asediar sitios y debilitar a los enemigos antes de un ataque masivo."
+        }
+    ]
+    },
+    {
+    "name": "killjoy",
+    "icon": "/iconos_agentes/Killjoy_icon_2_11zon.webp",
+    "splash": "/agentes/killjoy/Killjoy_Artwork_Full.webp",
+    "description": "Killjoy es una agente defensiva que se especializa en el control de zonas y la creación de trampas. Sus habilidades le permiten bloquear el avance enemigo y proporcionar un gran soporte para su equipo. Ideal para jugadores que disfrutan de mantener el control de áreas clave del mapa y atrapar a los oponentes desprevenidos.",
+    "rol": {
+        "name": "Centinela",
+        "icon": "/Icons/SentinelClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Nanoswarm",
+        "icon": "/agentes/killjoy/Nanoswarm.webp",
+        "description": "Killjoy lanza una granada que, al activarse, emite una explosión de nanobots que inflige daño a los enemigos cercanos. Esta habilidad es perfecta para defender sitios o sorprender a los enemigos en puntos clave."
+        },
+        {
+        "name": "Alarmbot",
+        "icon": "/agentes/killjoy/Alarmbot.webp",
+        "description": "Killjoy despliega un dispositivo que, al ser activado, emite una onda electromagnética que desactiva las habilidades enemigas y ralentiza a los enemigos dentro de su alcance. Esta habilidad puede cambiar el curso de una ronda, brindando tiempo para que su equipo reaccione."
+        },
+        {
+        "name": "Turret",
+        "icon": "/agentes/killjoy/Turret.webp",
+        "description": "Killjoy coloca una torreta automática que detecta a los enemigos cercanos y los ralentiza al ser alcanzados. Esta habilidad sirve para obtener información y retrasar los movimientos enemigos, alertando a su equipo de la presencia enemiga."
+        },
+        {
+        "name": "Lockdown",
+        "icon": "/agentes/killjoy/Lockdown.webp",
+        "description": "Killjoy despliega un enorme dispositivo que, al activarse, emite una onda de energía que desactiva las habilidades enemigas y ralentiza a los enemigos atrapados en su radio de acción. Es ideal para bloquear entradas o dificultar las maniobras del equipo contrario."
+        }
+    ]
+    },
+    {
+    "name": "neon",
+    "icon": "/iconos_agentes/Neon_icon_2_11zon.webp",
+    "splash": "/agentes/neon/Neon_Artwork_Full.webp",
+    "description": "Neon es una agente explosiva con habilidades centradas en la velocidad y la agilidad. Su capacidad para moverse rápidamente por el mapa y generar caos con sus habilidades la convierte en una opción perfecta para jugadores que disfrutan de un estilo de juego rápido y agresivo.",
+    "rol": {
+        "name": "Duelista",
+        "icon": "/Icons/DuelistClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "High Gear",
+        "icon": "/agentes/neon/High_Gear.webp",
+        "description": "Neon activa una habilidad que le permite correr a gran velocidad durante un corto período de tiempo. Esta habilidad le da una gran movilidad, permitiéndole reubicar sus posiciones, escapar o cerrar distancias rápidamente con los enemigos."
+        },
+        {
+        "name": "Relay Bolt",
+        "icon": "/agentes/neon/Relay_Bolt.webp",
+        "description": "Neon lanza un dispositivo que rebota, electrificando el área en un radio y aturdiendo a los enemigos que estén dentro de su alcance. Es útil para desorientar a los enemigos y obligarlos a moverse fuera de sus posiciones."
+        },
+        {
+        "name": "Fast Lane",
+        "icon": "/agentes/neon/Fast_Lane.webp",
+        "description": "Neon crea dos paredes de energía que se desplazan hacia adelante, bloqueando la visión y desorientando a los enemigos atrapados en su trayectoria. Esta habilidad es ideal para dividir el campo de batalla y dar ventaja a su equipo."
+        },
+        {
+        "name": "Overdrive",
+        "icon": "/agentes/neon/Overdrive.webp",
+        "description": "Neon canaliza toda su energía y obtiene una potente velocidad extra, junto con la capacidad de disparar un rayo de energía que atraviesa a los enemigos. Durante el uso de esta habilidad, su velocidad y capacidad de daño aumentan considerablemente, lo que la hace letal en combates cercanos."
+        }
+    ]
+    },
+    {
+    "name": "omen",
+    "icon": "/iconos_agentes/Omen_icon_2_11zon.webp",
+    "splash": "/agentes/omen/Omen_Artwork_Full.webp",
+    "description": "Omen es un agente que se especializa en el control de la información y la manipulación del espacio. Su capacidad para teletransportarse y crear distracción en el enemigo lo convierte en un excelente controlador de la visión, perfecto para jugadores que disfrutan de un estilo táctico y estratégico.",
+    "rol": {
+        "name": "Controlador",
+        "icon": "/Icons/ControllerClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Shrouded Step",
+        "icon": "/agentes/omen/Shrouded_Step.webp",
+        "description": "Omen teletransporta una corta distancia, cambiando su posición de manera repentina. Esta habilidad le permite reposicionarse rápidamente, evadir ataques o sorprender a los enemigos desde ángulos inesperados."
+        },
+        {
+        "name": "Paranoia",
+        "icon": "/agentes/omen/Paranoia.webp",
+        "description": "Omen lanza una sombra a lo largo de un trayecto, cegando y debilitando a los enemigos que se encuentren en su camino. Es útil para desorientar a los oponentes antes de un asalto o para crear una apertura en puntos de control."
+        },
+        {
+        "name": "Dark Cover",
+        "icon": "/agentes/omen/Dark_Cover.webp",
+        "description": "Omen lanza una esfera de sombra que viaja por el mapa, bloqueando la visión. El área de la esfera puede ser controlada, lo que permite a Omen crear cobertura para su equipo o negar la visibilidad al enemigo durante una ronda."
+        },
+        {
+        "name": "From the Shadows",
+        "icon": "/agentes/omen/From_the_Shadows.webp",
+        "description": "Omen selecciona un área del mapa y se teletransporta a ese lugar. Esta habilidad le permite moverse de manera estratégica, sorprender a los enemigos o crear desinformación en el campo de batalla."
+        }
+    ]
+    },
+    {
+    "name": "phoenix",
+    "icon": "/iconos_agentes/Phoenix_icon_2_11zon.webp",
+    "splash": "/agentes/phoenix/Phoenix_Artwork_Full.webp",
+    "description": "Phoenix es un agente duelist que se especializa en curarse a sí mismo y dominar el combate cercano. Su capacidad para renovarse y causar daño masivo lo convierte en un agresor de primer nivel, ideal para jugadores que buscan tomar la iniciativa y controlar la situación con habilidad.",
+    "rol": {
+        "name": "Duelista",
+        "icon": "/Icons/DuelistClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Blaze",
+        "icon": "/agentes/phoenix/Blaze.webp",
+        "description": "Phoenix crea una pared de fuego que bloquea la visión y puede curarse al estar dentro de ella. Esta habilidad es útil tanto para defender como para forzar al enemigo a moverse o salir de sus posiciones."
+        },
+        {
+        "name": "Curveball",
+        "icon": "/agentes/phoenix/Curveball.webp",
+        "description": "Phoenix lanza una granada cegadora que rebota en las esquinas, cegando a los enemigos en su área de efecto. Ideal para atacar o defender, obligando a los enemigos a apartarse de su camino o ceder terreno."
+        },
+        {
+        "name": "Hot Hands",
+        "icon": "/agentes/phoenix/Hot_Hands.webp",
+        "description": "Phoenix lanza una bola de fuego que inflige daño a los enemigos y le cura si está dentro de la explosión. Esta habilidad puede utilizarse para dañar a los oponentes o curarse rápidamente si está en una situación de peligro."
+        },
+        {
+        "name": "Run It Back",
+        "icon": "/agentes/phoenix/Run_it_Back.webp",
+        "description": "Phoenix marca un lugar en el mapa como su punto de resurgimiento. Si es eliminado durante el uso de esta habilidad, resucita en el mismo lugar con salud completa, dándole una segunda oportunidad para seguir combatiendo."
+        }
+    ]
+    },
+    {
+    "name": "raze",
+    "icon": "/iconos_agentes/Raze_icon_2_11zon.webp",
+    "splash": "/agentes/raze/Raze_Artwork_Full.webp",
+    "description": "Raze es un agente explosivo con un estilo de juego agresivo. Su capacidad para causar daño masivo con sus explosivos la convierte en una amenaza constante para los enemigos, ideal para jugadores que disfrutan de causar caos y destruir las defensas enemigas.",
+    "rol": {
+        "name": "Duelista",
+        "icon": "/Icons/DuelistClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Boom Bot",
+        "icon": "/agentes/raze/Boom_Bot.webp",
+        "description": "Raze lanza un robot teledirigido que rebota por el mapa buscando a los enemigos. Al detectar a un oponente, el bot los persigue y explota al contacto, infligiendo daño. Es útil para obtener información y forzar a los enemigos a moverse."
+        },
+        {
+        "name": "Blast Pack",
+        "icon": "/agentes/raze/Blast_Pack.webp",
+        "description": "Raze coloca un explosivo que puede detonar a voluntad, causando daño a los enemigos y propulsándola a ella misma o a los oponentes en el área. Esta habilidad le da gran movilidad, permitiéndole escapar o reposicionarse rápidamente."
+        },
+        {
+        "name": "Paint Shells",
+        "icon": "/agentes/raze/Paint_Shells.webp",
+        "description": "Raze lanza una serie de granadas que explotan en un área amplia, causando gran daño en el terreno de juego. Es ideal para despejar espacios o eliminar a los enemigos ocultos en rincones."
+        },
+        {
+        "name": "Showstopper",
+        "icon": "/agentes/raze/Showstopper.webp",
+        "description": "Raze equipa un lanzacohetes que inflige daño masivo en un área extensa. Esta habilidad es perfecta para aniquilar grupos de enemigos o limpiar una zona con gran efectividad, convirtiéndola en una de las ultis más devastadoras del juego."
+        }
+    ]
+    },
+    {
+    "name": "reyna",
+    "icon": "/iconos_agentes/Reyna_icon_2_11zon.webp",
+    "splash": "/agentes/reyna/Reyna_Artwork_Full.webp",
+    "description": "Reyna es una agente duelist que sobresale en el combate directo y la autosuficiencia. Su capacidad para curarse a sí misma, mejorar su poder de combate y eliminar a sus enemigos de forma eficiente la convierten en una de las más letales en enfrentamientos individuales.",
+    "rol": {
+        "name": "Duelista",
+        "icon": "/Icons/DuelistClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Devorar",
+        "icon": "/agentes/reyna/Devour.webp",
+        "description": "Los enemigos eliminados por Reyna dejan Orbes del Alma que duran 3 segundos. Al consumir un Orbe del Alma cercano, Reyna se cura rápidamente durante un corto período. Si la habilidad Emperatriz está activa, Devorar se lanza automáticamente y no consume el Orbe del Alma."
+        },
+        {
+        "name": "Despreciar",
+        "icon": "/agentes/reyna/Dismiss.webp",
+        "description": "Reyna consume un Orbe del Alma cercano y se vuelve invulnerable durante un breve período. Si la habilidad Emperatriz está activa, Reyna se vuelve invisible en lugar de invulnerable."
+        },
+        {
+        "name": "Mirada Lasciva",
+        "icon": "/agentes/reyna/Leer.webp",
+        "description": "Reyna equipa un ojo etéreo destructible. Al activarlo, lo lanza hacia adelante con un alcance limitado. El ojo ciega a todos los enemigos que lo vean."
+        },
+        {
+        "name": "Emperatriz",
+        "icon": "/agentes/reyna/Empress.webp",
+        "description": "Reyna entra en un estado de furia, aumentando considerablemente su velocidad de disparo, cambio de arma y recarga. Si elimina a un enemigo durante este estado, la habilidad se reinicia. Además, Devorar y Despreciar se mejoran: Devorar se lanza automáticamente sin consumir Orbes del Alma, y Despreciar vuelve a Reyna completamente invisible."
+        }
+    ]
+    },
+    {
+    "name": "sage",
+    "icon": "/iconos_agentes/Sage_icon_2_11zon.webp",
+    "splash": "/agentes/sage/Sage_Artwork_Full.webp",
+    "description": "Sage es una agente centinela que se especializa en la curación y el control del espacio. Su capacidad para sanar a sus compañeros y bloquear el avance enemigo la convierte en una pieza clave para mantener la ventaja en el campo de batalla.",
+    "rol": {
+        "name": "Centinela",
+        "icon": "/Icons/SentinelClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Orbe de Sanación",
+        "icon": "/agentes/sage/Healing_Orb.webp",
+        "description": "Sage equipa un orbe que, al lanzarlo sobre un aliado herido, lo cura durante un breve período. Si Sage está herida, puede usarlo para curarse a sí misma. Esta habilidad es esencial para mantener a los compañeros de equipo en combate y prolongar la supervivencia del equipo."
+        },
+        {
+        "name": "Orbe de Ralentización",
+        "icon": "/agentes/sage/Slow_Orb.webp",
+        "description": "Sage equipa un orbe que, al lanzarlo al suelo, crea un campo que ralentiza a los enemigos que lo atraviesan. Es útil para frenar el avance enemigo o para cubrir retiradas."
+        },
+        {
+        "name": "Orbe Barrera",
+        "icon": "/agentes/sage/Barrier_Orb.webp",
+        "description": "Sage equipa un orbe que, al lanzarlo, crea una pared sólida que bloquea la visión y el paso. Puede rotarla antes de colocarla para adaptarse a diferentes situaciones. Es ideal para bloquear rutas de acceso o para proteger áreas clave."
+        },
+        {
+        "name": "Resurrección",
+        "icon": "/agentes/sage/Resurrection.webp",
+        "description": "Sage equipa una habilidad que le permite resucitar a un aliado caído. Al apuntar sobre un compañero muerto y activar la habilidad, lo revive con toda su salud. Esta habilidad puede cambiar el curso de una ronda al devolver a un jugador clave al juego."
+        }
+    ]
+    },
+    {
+    "name": "skye",
+    "icon": "/iconos_agentes/Skye_icon_2_11zon.webp",
+    "splash": "/agentes/skye/Skye_Artwork_Full.webp",
+    "description": "Skye es una agente de apoyo y curación que utiliza sus habilidades para sanar a sus compañeros y controlar el campo de batalla. Su capacidad para proporcionar curación constante y bloqueos de visión la convierte en una opción muy valiosa para cualquier equipo.",
+    "rol": {
+        "name": "Iniciadora",
+        "icon": "/Icons/InitiatorClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Luz Curativa",
+        "icon": "/agentes/skye/Healing_Orb.webp",
+        "description": "Skye equipa un orbe que, al lanzarlo sobre un aliado herido, lo cura a lo largo de un breve período. Es ideal para mantener a los compañeros en pie durante enfrentamientos intensos."
+        },
+        {
+        "name": "Flashbang",
+        "icon": "/agentes/skye/Guiding_Light.webp",
+        "description": "Skye lanza una granada cegadora que explota en un área grande, cegando a todos los enemigos dentro de su radio de acción. Es útil para interrumpir el avance enemigo o facilitar la entrada de su equipo en áreas claves."
+        },
+        {
+        "name": "Cebo",
+        "icon": "/agentes/skye/Regrowth.webp",
+        "description": "Skye lanza una esfera que, al impactar en el suelo, emite una luz cegadora en todas las direcciones. Esta habilidad es excelente para despejar espacios o forzar a los enemigos a moverse."
+        },
+        {
+        "name": "Rayo Sanador",
+        "icon": "/agentes/skye/Seekers.webp",
+        "description": "Skye activa su habilidad definitiva, una gran esfera que recorre el mapa, curando a todos los aliados en su camino. Esta habilidad puede ser decisiva para mantener a su equipo con vida durante combates prolongados."
+        }
+    ]
+    },
+    {
+    "name": "sova",
+    "icon": "/iconos_agentes/Sova_icon_2_11zon.webp",
+    "splash": "/agentes/sova/Sova_Artwork_Full.webp",
+    "description": "Sova es un agente de información que se especializa en detectar y localizar a los enemigos. Su habilidad para recopilar información mediante su dron y rastrear enemigos con su flecha le permite a su equipo adelantarse a las jugadas del oponente.",
+    "rol": {
+        "name": "Iniciador",
+        "icon": "/Icons/InitiatorClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Flecha de Reconocimiento",
+        "icon": "/agentes/sova/Recon_Bolt.webp",
+        "description": "Sova lanza una flecha que revela a los enemigos en su área de efecto. La flecha puede ser recargada para aumentar su alcance y duración, lo que permite obtener información valiosa para su equipo."
+        },
+        {
+        "name": "Dron de Reconocimiento",
+        "icon": "/agentes/sova/Owl_Drone.webp",
+        "description": "Sova lanza un dron que se desplaza por el mapa. El dron puede ser controlado para detectar enemigos en su camino y revelar su posición, lo que facilita la estrategia y los ataques coordinados."
+        },
+        {
+        "name": "Flecha de Impacto",
+        "icon": "/agentes/sova/Shock_Bolt.webp",
+        "description": "Sova dispara una flecha explosiva que inflige daño a los enemigos en su radio de acción. Es útil para despejar ángulos cerrados o forzar a los enemigos a abandonar sus posiciones."
+        },
+        {
+        "name": "Tormenta de Flechas",
+        "icon": "/agentes/sova/Hunters_Fury.webp",
+        "description": "Sova equipa un arco de largo alcance que dispara una serie de flechas explosivas. Cada flecha rastrea y marca la posición de los enemigos, permitiendo a Sova y su equipo realizar un ataque devastador. Es ideal para eliminar a los enemigos a larga distancia o forzar su retirada."
+        }
+    ]
+    },
+    {
+    "name": "viper",
+    "icon": "/iconos_agentes/Viper_icon_2_11zon.webp",
+    "splash": "/agentes/viper/Viper_Artwork_Full.webp",
+    "description": "Viper es una agente controladora que sobresale en el uso de venenos y control del área. Sus habilidades le permiten bloquear la visión del enemigo, infligir daño a largo plazo y proteger las posiciones de su equipo con sus dispositivos tóxicos.",
+    "rol": {
+        "name": "Controladora",
+        "icon": "/Icons/ControllerClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Bola Venenosa",
+        "icon": "/agentes/viper/Poison_Cloud.webp",
+        "description": "Viper lanza una bola que se desplaza por el mapa y libera un gas venenoso en su área de efecto. El gas daña a los enemigos que lo atraviesan y bloquea la visión, lo que la hace ideal para controlar áreas clave del mapa."
+        },
+        {
+        "name": "Cortina Tóxica",
+        "icon": "/agentes/viper/Toxic_Screen.webp",
+        "description": "Viper coloca una cortina de gas tóxico que bloquea la visión y reduce la movilidad de los enemigos en su área de efecto. La cortina se activa con un dispositivo y puede ser movida para adaptarse a la situación."
+        },
+        {
+        "name": "Fuego Abrasador",
+        "icon": "/agentes/viper/Snake_Bite.webp",
+        "description": "Viper lanza una nube de gas venenoso a una posición determinada. Esta nube se activa al contacto y hace que los enemigos dentro de su radio de acción sufran daño continuo, lo que la convierte en una herramienta de control del terreno."
+        },
+        {
+        "name": "Manto de Viper",
+        "icon": "/agentes/viper/Viper_Pit.webp",
+        "description": "Viper activa su habilidad definitiva para crear una gran nube venenosa en el área que cubre una gran parte del mapa. Los enemigos dentro de la nube reciben daño continuo y la visibilidad es completamente bloqueada, lo que convierte a esta habilidad en una herramienta perfecta para bloquear zonas clave o retrasar el avance del enemigo."
+        }
+    ]
+    },
+    {
+    "name": "yoru",
+    "icon": "/iconos_agentes/Yoru_icon_2_11zon.webp",
+    "splash": "/agentes/yoru/Yoru_Artwork_Full.webp",
+    "description": "Yoru es un agente duelist que sobresale en la engañosa y rápida rotación por el mapa. Su capacidad para manipular la visión del enemigo y entrar y salir de situaciones de combate lo convierte en un agente ideal para desorientar y sorprender al equipo contrario.",
+    "rol": {
+        "name": "Duelista",
+        "icon": "/Icons/DuelistClassSymbol.webp"
+    },
+    "spells": [
+        {
+        "name": "Destello",
+        "icon": "/agentes/yoru/Blindside.webp",
+        "description": "Yoru lanza un destello que ciega a los enemigos en su área de efecto. La habilidad puede ser activada a través de una pared, lo que la convierte en una herramienta eficaz para sorprender a los enemigos desde ángulos inesperados."
+        },
+        {
+        "name": "Puerta Dimensional",
+        "icon": "/agentes/yoru/Gatecrash.webp",
+        "description": "Yoru equipa un portal que le permite teletransportarse a una corta distancia. Al pasar por el portal, Yoru se vuelve parcialmente invulnerable y puede sorprender al enemigo con rapidez."
+        },
+        {
+        "name": "Carga de Reconocimiento",
+        "icon": "/agentes/yoru/Fakeout.webp",
+        "description": "Yoru lanza un dispositivo que genera una distracción y revela la posición de los enemigos cercanos. La habilidad puede desorientar a los enemigos al simular una presencia falsa, lo que permite a Yoru y a su equipo tomar ventaja."
+        },
+        {
+        "name": "Destello Dimensional",
+        "icon": "/agentes/yoru/Dimensional_Drift.webp",
+        "description": "Yoru activa su habilidad definitiva, que le permite desaparecer en el plano dimensional y moverse libremente a través del mapa sin ser detectado. Durante este tiempo, Yoru puede posicionarse en cualquier lugar y atacar con una ventaja significativa de sorpresa."
+        }
+    ]
+    }
+]

@@ -1,0 +1,27 @@
+---
+import Layout from "../../layouts/Layout.astro"
+import agents from "../../data/agents.json";
+
+import Details from "../../components/Details.astro";
+
+export async function getStaticPaths() {
+  return agents.map(agent => ({
+    params: { name: agent.name.toLowerCase() },
+    props: {agent : agent }
+  }));
+}
+
+const { name } = Astro.params;
+const {agent } = Astro.props;
+
+if (!agent) {
+  return Astro.redirect("/404");
+}
+---
+
+<Layout title = {name}>
+
+    <Details agente={agent} />
+        
+
+</Layout>
