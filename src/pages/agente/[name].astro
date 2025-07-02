@@ -4,6 +4,7 @@ import agents from "../../data/agents.json";
 
 import Details from "../../components/Details.astro";
 
+
 export async function getStaticPaths() {
   return agents.map(agent => ({
     params: { name: agent.name.toLowerCase() },
@@ -21,7 +22,32 @@ if (!agent) {
 
 <Layout title = {name}>
 
+  <div class="container">
+
+    <section> 
+       <img src={agent.splash}/>  
+    </section>
+
+
     <Details agente={agent} />
+  </div>
+    
+  <style>
+    .container{ 
+      display: flex;
+      gap: 12px;
+      
+    }
+
+    section{
+      
+    }
+    img{
+      width: 400px;
+      height: 480px;
+    }
+
+  </style>
         
 
 </Layout>

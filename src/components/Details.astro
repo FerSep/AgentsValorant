@@ -10,11 +10,16 @@ interface spell {
 
 const {agente} = Astro.props
 
-const {spells} = agente.spells as {spells : spell[]}
+const spells :spell[] = agente.spells 
 
-const { } = Astro.props as { }
 ---
 <section>
+
+    <article class="container">   
+        <img id="rol" src={agente.rol.icon} alt={agente.rol.name} data-name={agente.rol.name} data-text={agente.description}>  
+      
+    </article>
+
     <nav>
         <ul class="spell">
             {spells.map((spell) =>{
@@ -28,10 +33,13 @@ const { } = Astro.props as { }
     
 
     <div class="info">
-    
+        <h2>{agente.rol.name}</h2>
+        <p class="letter"> {agente.description}</p>
     </div>
 
 </section>
+
+
 
 <script>
     const spell = document.querySelectorAll('.spell li')
@@ -53,16 +61,49 @@ const { } = Astro.props as { }
         })
     })
     
+    const info = document.getElementById('rol') || null
+
+    if(info){ 
+        info.addEventListener("click", ()=>{
+        if(div){
+            div.innerHTML = ""
+        }
+
+        showInfo(info.dataset.name || '', info.dataset.text || '')
+        
+    })
+    }
+    
 
     function showInfo(name : string, texto : string) {
     
         const h2 = document.createElement('h2')
         h2.textContent = name
+        h2.style.color = 'white'
 
         const p = document.createElement('p')
         p.textContent = texto
+        p.style.color = 'white'
         
         div?.appendChild(h2)
         div?.appendChild(p)
     }
 </script>
+<style>
+
+    nav ul { 
+        display: flex ;
+        gap: 15px;
+    }
+
+    
+    img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .letter{ 
+        color :white;
+    }
+
+</style>

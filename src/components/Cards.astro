@@ -1,10 +1,5 @@
 ---
-interface props {
-  image : string;
-  name : string;
-}
-
-const {image , name} = Astro.props 
+const {image, name} = Astro.props 
 
 
 ---
@@ -13,6 +8,7 @@ const {image , name} = Astro.props
     <img src={image} alt={name}  class="image"/>
     <h2>{name}</h2>
 </article>
+
 
 <style>
 .image{

@@ -2,7 +2,6 @@
 import Layout from '../layouts/Layout.astro';
 import Cards from '../components/Cards.astro';
 import agents from '../data/agents.json';
-import AgentesLayaout from '../layouts/agentesLayaout.astro';
 
 
 ---
@@ -29,7 +28,7 @@ import AgentesLayaout from '../layouts/agentesLayaout.astro';
 	<section class="principal">
         {
             agents.map(agent => (
-                <a href={`/agents/${agent.name.toLowerCase()}`}>
+                <a href={`/agente/${agent.name.toLowerCase()}`}>
                     <Cards
                         image={agent.icon}
                         name={agent.name}

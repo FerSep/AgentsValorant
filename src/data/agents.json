@@ -8,8 +8,7 @@
             "name" : "controller",
             "icon" : "/Icons/ControllerClassSymbol.webp"
         },
-        "spells" :
-            [
+        "spells" :  [
                 {
                     "name" : "nebula",
                     "icon" : "/agentes/astra/Nebula_Dissipate.webp",
@@ -67,7 +66,7 @@
     },
     {
     "name": "brimstone",
-    "icon": "/iconos_agentes/Brimstone_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Brimstone_icon_3_11zon.webp",
     "splash": "/agentes/brimstone/Brimstone_Artwork_Full.webp",
     "description": "Brimstone es un personaje confiable y versátil que sobresale en controlar el mapa y apoyar a su equipo. Sus habilidades le permiten asegurar áreas estratégicas y crear ventajas tácticas. Es ideal para jugadores que buscan un estilo de juego sólido y efectivo en equipo.",
     "rol": {
@@ -99,7 +98,7 @@
     },
     {
     "name": "chamber",
-    "icon": "/iconos_agentes/Chamber_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Chamber_icon_4_11zon.webp",
     "splash": "/agentes/chamber/Chamber_Artwork_Full.webp",
     "description": "Chamber es un agente sofisticado y letal que combina precisión y estrategia con un conjunto de habilidades centrado en el control de áreas y el daño directo. Su arsenal especializado lo convierte en un gran duelista y ancla defensiva, ideal para quienes tienen buena puntería y les gusta jugar de manera calculada.",
     "rol": {
@@ -131,7 +130,7 @@
     },
     {
     "name": "clove",
-    "icon": "/iconos_agentes/Clove_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Clove_icon_5_11zon.webp",
     "splash": "/agentes/clove/Clove_Artwork_Full.webp",
     "description": "Clove es un agente escocés que domina las esencias de la vida y la inmortalidad. Su capacidad para regresar de la muerte y crear caos en el campo de batalla lo convierte en un controlador versátil y enigmático. Ideal para jugadores que buscan un estilo de juego táctico y disruptivo.",
     "rol": {
@@ -163,7 +162,7 @@
     },
     {
     "name": "cypher",
-    "icon": "/iconos_agentes/Cypher_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Cypher_icon_6_11zon.webp",
     "splash": "/agentes/cypher/Cypher_Artwork_Full.webp",
     "description": "Cypher es un maestro del espionaje y la información, capaz de controlar el campo de batalla con su red de dispositivos. Su habilidad para recopilar datos sobre la posición enemiga lo convierte en una herramienta invaluable para el equipo. Ideal para jugadores estratégicos y calculadores que disfrutan de anticiparse a los movimientos rivales.",
     "rol": {
@@ -195,7 +194,7 @@
     },
     {
     "name": "fade",
-    "icon": "/iconos_agentes/Fade_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Fade_icon_8_11zon.webp",
     "splash": "/agentes/fade/Fade_Artwork_Full.webp",
     "description": "Fade es una agente turca especialista en el control de la información y el debilitamiento del enemigo. Sus habilidades le permiten rastrear y presionar al equipo contrario, creando un ambiente de constante amenaza. Ideal para jugadores que disfrutan desestabilizando al enemigo y proporcionando ventaja a su equipo.",
     "rol": {
@@ -226,7 +225,7 @@
     ]
     },{
     "name": "gekko",
-    "icon": "/iconos_agentes/Gekko_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Gekko_icon_9_11zon.webp",
     "splash": "/agentes/gekko/Gekko_Artwork_Full.webp",
     "description": "Gekko es un agente lleno de energía y creatividad, que se especializa en la interacción con dispositivos que se comportan casi como mascotas. Sus habilidades le permiten controlar el terreno de juego y generar caos en las filas enemigas con una mezcla de diversión y eficacia. Ideal para jugadores que disfrutan de un estilo de juego versátil y de impacto.",
     "rol": {
@@ -258,7 +257,7 @@
     },
     {
     "name": "harbor",
-    "icon": "/iconos_agentes/Harbor_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Harbor_icon_10_11zon.webp",
     "splash": "/agentes/harbor/Harbor_Artwork_Full.webp",
     "description": "Harbor es un agente que controla el agua para crear barreras y proteger a su equipo. Su habilidad para manipular el entorno le permite tanto defender como atacar, ofreciendo un control estratégico del espacio. Ideal para jugadores que disfrutan de ser el ancla defensiva y crear oportunidades para su equipo.",
     "rol": {
@@ -290,7 +289,7 @@
     },
     {
     "name": "iso",
-    "icon": "/iconos_agentes/Iso_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Iso_icon_11_11zon.webp",
     "splash": "/agentes/iso/Iso_Artwork_Full.webp",
     "description": "Iso es un agente con habilidades que le permiten manipular energía radiante para crear barreras de protección y desmantelar a sus enemigos. Su capacidad para controlar el entorno con sus habilidades lo convierte en un duelist eficaz y un gran aliado para el equipo.",
     "rol": {
@@ -322,7 +321,7 @@
     },
     {
     "name": "jett",
-    "icon": "/iconos_agentes/Jett_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Jett_icon_12_11zon.webp",
     "splash": "/agentes/jett/Jett_Artwork_Full.webp",
     "description": "Jett es una agente ágil y rápida que se especializa en el control del aire. Sus habilidades le permiten moverse rápidamente por el mapa, evitando el daño y atacando a sus enemigos con gran precisión. Ideal para jugadores que disfrutan de la movilidad y la flexibilidad en su estilo de juego.",
     "rol": {
@@ -354,7 +353,7 @@
     },
     {
     "name": "kayo",
-    "icon": "/iconos_agentes/KAYO_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/KAYO_icon_13_11zon.webp",
     "splash": "/agentes/kayo/KAYO_Artwork_Full.webp",
     "description": "KAY/O es un agente con habilidades centradas en el control del campo de batalla y la interrupción de las habilidades enemigas. Su capacidad para neutralizar a otros agentes y su presencia en el campo lo convierten en una pieza clave para cualquier equipo. Ideal para jugadores que buscan apoyo táctico y un impacto directo en el control del juego.",
     "rol": {
@@ -386,7 +385,7 @@
     },
     {
     "name": "killjoy",
-    "icon": "/iconos_agentes/Killjoy_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Killjoy_icon_14_11zon.webp",
     "splash": "/agentes/killjoy/Killjoy_Artwork_Full.webp",
     "description": "Killjoy es una agente defensiva que se especializa en el control de zonas y la creación de trampas. Sus habilidades le permiten bloquear el avance enemigo y proporcionar un gran soporte para su equipo. Ideal para jugadores que disfrutan de mantener el control de áreas clave del mapa y atrapar a los oponentes desprevenidos.",
     "rol": {
@@ -418,7 +417,7 @@
     },
     {
     "name": "neon",
-    "icon": "/iconos_agentes/Neon_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Neon_icon_15_11zon.webp",
     "splash": "/agentes/neon/Neon_Artwork_Full.webp",
     "description": "Neon es una agente explosiva con habilidades centradas en la velocidad y la agilidad. Su capacidad para moverse rápidamente por el mapa y generar caos con sus habilidades la convierte en una opción perfecta para jugadores que disfrutan de un estilo de juego rápido y agresivo.",
     "rol": {
@@ -450,7 +449,7 @@
     },
     {
     "name": "omen",
-    "icon": "/iconos_agentes/Omen_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Omen_icon_16_11zon.webp",
     "splash": "/agentes/omen/Omen_Artwork_Full.webp",
     "description": "Omen es un agente que se especializa en el control de la información y la manipulación del espacio. Su capacidad para teletransportarse y crear distracción en el enemigo lo convierte en un excelente controlador de la visión, perfecto para jugadores que disfrutan de un estilo táctico y estratégico.",
     "rol": {
@@ -482,7 +481,7 @@
     },
     {
     "name": "phoenix",
-    "icon": "/iconos_agentes/Phoenix_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Phoenix_icon_17_11zon.webp",
     "splash": "/agentes/phoenix/Phoenix_Artwork_Full.webp",
     "description": "Phoenix es un agente duelist que se especializa en curarse a sí mismo y dominar el combate cercano. Su capacidad para renovarse y causar daño masivo lo convierte en un agresor de primer nivel, ideal para jugadores que buscan tomar la iniciativa y controlar la situación con habilidad.",
     "rol": {
@@ -514,7 +513,7 @@
     },
     {
     "name": "raze",
-    "icon": "/iconos_agentes/Raze_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Raze_icon_18_11zon.webp",
     "splash": "/agentes/raze/Raze_Artwork_Full.webp",
     "description": "Raze es un agente explosivo con un estilo de juego agresivo. Su capacidad para causar daño masivo con sus explosivos la convierte en una amenaza constante para los enemigos, ideal para jugadores que disfrutan de causar caos y destruir las defensas enemigas.",
     "rol": {
@@ -546,7 +545,7 @@
     },
     {
     "name": "reyna",
-    "icon": "/iconos_agentes/Reyna_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Reyna_icon_19_11zon.webp",
     "splash": "/agentes/reyna/Reyna_Artwork_Full.webp",
     "description": "Reyna es una agente duelist que sobresale en el combate directo y la autosuficiencia. Su capacidad para curarse a sí misma, mejorar su poder de combate y eliminar a sus enemigos de forma eficiente la convierten en una de las más letales en enfrentamientos individuales.",
     "rol": {
@@ -578,7 +577,7 @@
     },
     {
     "name": "sage",
-    "icon": "/iconos_agentes/Sage_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Sage_icon_20_11zon.webp",
     "splash": "/agentes/sage/Sage_Artwork_Full.webp",
     "description": "Sage es una agente centinela que se especializa en la curación y el control del espacio. Su capacidad para sanar a sus compañeros y bloquear el avance enemigo la convierte en una pieza clave para mantener la ventaja en el campo de batalla.",
     "rol": {
@@ -610,7 +609,7 @@
     },
     {
     "name": "skye",
-    "icon": "/iconos_agentes/Skye_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Skye_icon_21_11zon.webp",
     "splash": "/agentes/skye/Skye_Artwork_Full.webp",
     "description": "Skye es una agente de apoyo y curación que utiliza sus habilidades para sanar a sus compañeros y controlar el campo de batalla. Su capacidad para proporcionar curación constante y bloqueos de visión la convierte en una opción muy valiosa para cualquier equipo.",
     "rol": {
@@ -642,7 +641,7 @@
     },
     {
     "name": "sova",
-    "icon": "/iconos_agentes/Sova_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Sova_icon_22_11zon.webp",
     "splash": "/agentes/sova/Sova_Artwork_Full.webp",
     "description": "Sova es un agente de información que se especializa en detectar y localizar a los enemigos. Su habilidad para recopilar información mediante su dron y rastrear enemigos con su flecha le permite a su equipo adelantarse a las jugadas del oponente.",
     "rol": {
@@ -674,7 +673,7 @@
     },
     {
     "name": "viper",
-    "icon": "/iconos_agentes/Viper_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Viper_icon_23_11zon.webp",
     "splash": "/agentes/viper/Viper_Artwork_Full.webp",
     "description": "Viper es una agente controladora que sobresale en el uso de venenos y control del área. Sus habilidades le permiten bloquear la visión del enemigo, infligir daño a largo plazo y proteger las posiciones de su equipo con sus dispositivos tóxicos.",
     "rol": {
@@ -706,7 +705,7 @@
     },
     {
     "name": "yoru",
-    "icon": "/iconos_agentes/Yoru_icon_2_11zon.webp",
+    "icon": "/iconos_agentes/Yoru_icon_24_11zon.webp",
     "splash": "/agentes/yoru/Yoru_Artwork_Full.webp",
     "description": "Yoru es un agente duelist que sobresale en la engañosa y rápida rotación por el mapa. Su capacidad para manipular la visión del enemigo y entrar y salir de situaciones de combate lo convierte en un agente ideal para desorientar y sorprender al equipo contrario.",
     "rol": {
